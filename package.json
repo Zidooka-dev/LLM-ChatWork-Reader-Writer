@@ -1,0 +1,22 @@
+{
+  "name": "llm-chatwork-reader-writer",
+  "version": "0.1.0",
+  "description": "LLM-friendly ChatWork Reader/Writer CLI",
+  "type": "module",
+  "bin": {
+    "llm-chatwork-rw": "./src/cli.mjs"
+  },
+  "scripts": {
+    "help": "node src/cli.mjs --help",
+    "me": "node src/cli.mjs me",
+    "rooms": "node src/cli.mjs rooms",
+    "read": "node src/cli.mjs read",
+    "write": "node src/cli.mjs write"
+  },
+  "keywords": [
+    "chatwork",
+    "cli",
+    "llm"
+  ],
+  "license": "MIT"
+}
